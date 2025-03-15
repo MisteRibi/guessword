@@ -77,4 +77,5 @@ function toggleLanguage() {
     console.log('toggleLanguage clicked');
     localStorage.setItem('language', language === "fr" ? "en" : "fr");
     setLanguage();
+    wordsCount();
 }
