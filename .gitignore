@@ -6,3 +6,6 @@
 /._guesswordhelper.js
 /._index.html
 /._pico.min.css
+._.github
+.github/._workflows
+.github/workflows/._static.yml
