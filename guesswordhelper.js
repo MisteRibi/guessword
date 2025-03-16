@@ -27,7 +27,7 @@ function wordsCount() {
     console.log(words);
     possible.removeAttribute('aria-busy');
     possible.innerText = new Intl
-        .NumberFormat(language+"-CA")
+        .NumberFormat(language)
         .format(words.length);
     setState(lettersInput, letters, words.length);
 };
